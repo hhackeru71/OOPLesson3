@@ -21,8 +21,8 @@ namespace OOPLesson3
         }
 
 
-        public Boy(int age, string name,string koko)
-         :this(age,name)
+        public Boy(int age, string name, string koko)
+         : this(age, name)
         {
             Koko = koko;
 
@@ -36,13 +36,5 @@ namespace OOPLesson3
         }
 
 
-
-
-
-
-
-
-
-
-}
+    }
 }
