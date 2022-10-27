@@ -8,6 +8,8 @@ namespace OOPLesson3
 {
     internal class Student
     {
+        public const double pi = 3.1415;
+        public const string name = "snir";
         public string Name { get; set; }
         public int Age { get; set; }
 

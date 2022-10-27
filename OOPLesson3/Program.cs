@@ -8,18 +8,22 @@ namespace MyApp // Note: actual namespace depends on the project name.
       
         static void Main(string[] args)
         {
+            //
+
             //לא ניתן ליצור אובייקטים ממחלקה סטטית
             //במחלקה סטטית כל  המתודות המשתנים חייבים להיות מוגדרים כסטטיים
             //ניגש למתודות / משתנים ע"י המחלקה עצמה
             Student s1 = new Student("sdf", 30);
-            Console.WriteLine(Student.Check());
-            Student s2 = new Student("sdf", 30); 
-            Student s3 = new Student("sdf", 30);
-            Student s4 = new Student("sdf", 30);
-            Student s5 = new Student("sdf", 30);
-            Student s6 = new Student("sdf", 30);
-            Console.WriteLine(Student.counter);//
-            Console.WriteLine(Student.Check());
+            Console.WriteLine(Student.pi);
+            
+            //Console.WriteLine(Student.Check());
+            //Student s2 = new Student("sdf", 30); 
+            //Student s3 = new Student("sdf", 30);
+            //Student s4 = new Student("sdf", 30);
+            //Student s5 = new Student("sdf", 30);
+            //Student s6 = new Student("sdf", 30);
+            //Console.WriteLine(Student.counter);//
+            //Console.WriteLine(Student.Check());
 
 
             //Boy boy1 = new Boy(1,"sdf","koko");
