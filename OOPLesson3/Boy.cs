@@ -8,16 +8,25 @@ namespace OOPLesson3
 {
     internal class Boy
     {
-
+        public static int counter;
         public int Age { get; set; }
         public string Name { get; set; }
         public string Koko { get; set; }
         public bool boolen { get; set; }
         //ctor
+
+        //יקרא ראשון בזמן יצירת האובייקט
+        //לאחר מכן לא יקרא בשנית
+        static Boy()
+        {
+            counter++;
+        }
+
         public Boy(string name, int age)
         {
             Name = name;
             Age = age;
+           
         }
 
 
@@ -25,7 +34,7 @@ namespace OOPLesson3
          : this(age, name)
         {
             Koko = koko;
-
+            //counter++;
         }
 
         public Boy(int age, string name)
@@ -34,6 +43,12 @@ namespace OOPLesson3
             Age = age;
 
         }
+
+        public static void Print()
+        {
+            Console.WriteLine($"hello world");
+        }
+
 
 
     }

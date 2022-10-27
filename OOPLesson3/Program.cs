@@ -7,10 +7,17 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Boy boy = new Boy(1,"sdf","koko");
-            Console.WriteLine(boy.boolen);
-            Console.WriteLine($"{boy.Age},{boy.Name},{boy.Koko}");
-            
+            Boy boy1 = new Boy(1,"sdf","koko");
+            Console.WriteLine(Boy.counter);//
+            Boy boy2 = new Boy(1, "sdf", "koko");
+            Console.WriteLine(Boy.counter);//
+            Boy boy3 = new Boy(1, "sdf", "koko");
+            Console.WriteLine(Boy.counter);//
+            Boy.Print();
+            //Console.WriteLine(boy1.boolen);
+            //Console.WriteLine($"{boy1.Age},{boy1.Name},{boy1.Koko}");
+
+
         }
     }
 
