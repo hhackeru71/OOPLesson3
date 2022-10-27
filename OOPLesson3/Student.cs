@@ -9,7 +9,7 @@ namespace OOPLesson3
     internal class Student
     {
         public const double pi = 3.1415;
-        public const string name = "snir";
+        public const string name = "yarin";
         public string Name { get; set; }
         public int Age { get; set; }
 
@@ -33,7 +33,14 @@ namespace OOPLesson3
                 return "good";
             return "not good";
         }
-        
-     
+
+        public static string CheckString()
+        {
+            if (name != "yarin")
+                return "good";
+            return "not good";
+        }
+
+
     }
 }

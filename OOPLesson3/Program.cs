@@ -14,8 +14,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //במחלקה סטטית כל  המתודות המשתנים חייבים להיות מוגדרים כסטטיים
             //ניגש למתודות / משתנים ע"י המחלקה עצמה
             Student s1 = new Student("sdf", 30);
-            Console.WriteLine(Student.pi);
-            
+            //Console.WriteLine(Student.pi);
+            Console.WriteLine(Student.CheckString());
             //Console.WriteLine(Student.Check());
             //Student s2 = new Student("sdf", 30); 
             //Student s3 = new Student("sdf", 30);
