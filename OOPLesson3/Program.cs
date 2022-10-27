@@ -18,7 +18,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Student s4 = new Student("sdf", 30);
             Student s5 = new Student("sdf", 30);
             Student s6 = new Student("sdf", 30);
-
             Console.WriteLine(Student.counter);//
             Console.WriteLine(Student.Check());
 
